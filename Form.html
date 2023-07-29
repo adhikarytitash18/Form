@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="icon" href="logo/LOGO.png">
+  </head>
+<body>
+    <div class="container">
+        <!-- START FORM -->
+     <form id="creat-account-form" action="index.html" method="GET">
+     <div class="title">
+       <h2>Your Account</h2>
+     </div>
+     
+     <!-- USERNAME -->
+     <div class="input-group" >
+       <label for="username" >Name</label>
+       <input type="text" id="username" placeholder="Name" name="username" title="Fill up your Name">
+       <i class="fa-solid fa-circle-check"></i>
+       <i class="fa-solid fa-circle-xmark"></i>
+       <p>Error message</p>
+     </div>
+     
+     <!-- EMAIL -->
+     <div class="input-group">
+       <label for="email">Email Id</label>
+       <input type="text" id="email" placeholder="Email" name="email" title="Give a valid id">
+       <i class="fa-solid fa-circle-check"></i>
+       <i class="fa-solid fa-circle-xmark"></i>
+       <p>Error message</p>
+     </div>
+     
+     <!-- PASSWORD -->
+     <div class="input-group">
+       <label for="password">Password</label>
+       <input type="password" id="password" placeholder="password" name="password" title="Give a valid password">
+       <i class="fa-solid fa-circle-check"></i>
+       <i class="fa-solid fa-circle-xmark"></i>
+       <p>Error message</p>
+     </div>
+     
+     <!-- CONFIRMATION -->
+     <div class="input-group">
+       <label for="confirm-password">Confirm Password</label>
+       <input type="password" id="confirm-password" placeholder="confirm-password" name="confirmpassword" title="Give a valid confirm-password">
+       <i class="fa-solid fa-circle-check"></i>
+       <i class="fa-solid fa-circle-xmark"></i>
+       <p>Error message</p>
+     </div>
+     
+     <button type="submit" class="btn">Submit</button>
+     <button type="reset" class="btn-1">Reset</button>
+     </form>
+     </div>
+     </div>
+
+  <script src="JS/form.js"></script>  
+</body>
+</html>

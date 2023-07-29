@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: justify;
+    }
+
+ .container{
+    position: relative;
+    max-width: 377px;
+    width: 100%;
+    border-radius: 8px;
+   padding: 9px;
+ }
+
+#creat-account-form{
+    width: 500px;
+    box-shadow: 0 0 0 2px grey;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: lightgrey;
+}
+
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-family:  sans-serif;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.input-group{
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #000;
+   font-size: 20px;
+} 
+
+.input-group input{
+    display: block;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+   
+}
+
+.error input{
+    border: 3px solid red;
+}
+.success input{
+    border: 3px solid green;
+}
+
+.error i.fa-circle-xmark{
+visibility: visible;
+color: red;
+}
+
+.input-group i{
+position: absolute;
+right: 10px;
+top: 35px;
+visibility: hidden;
+}
+
+.success i.fa-circle-check{
+visibility: visible;
+color: green;
+}
+
+.input-group p{
+font-size: 14px;
+color: red;
+visibility: hidden;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.error p{
+visibility: visible;
+}
+
+.btn{
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+font-size: 20px;
+background-color: lightskyblue;
+color:white;
+text-transform: uppercase;
+border: 2px solid black;
+cursor: pointer;
+}
+.btn-1{
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+margin-top: 10px;
+font-size: 20px;
+background-color:yellow;
+color: white;
+text-transform: uppercase;
+border: 2px solid black; 
+cursor: pointer; 
+}
+.btn:hover{
+background-color: grey;
+color: black;
+transition: 1s all ease;
+}
+
+.btn-1:hover{
+background-color:gray;
+color: black;
+transition: 1s all ease;  
+}
+

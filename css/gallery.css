@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+    position: fixed;
+    top: 0;left: 0; right: 0;
+    background: #cf5e28;
+    box-shadow: 0 5px 10px rgb(0,0,0,.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.LOGO{
+    margin-right: 260px;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+    text-transform: capitalize;
+}
+.navbar ul li{
+    position: relative;
+    float: left;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-right: 10px;
+    line-height: 10px;
+}
+
+.navbar ul li a{
+font-size: 18px;
+padding: 20px;
+display: block;
+color: azure !important ;
+}
+.navbar ul li a:hover{
+background-color: #ffffff;
+color: gray !important;
+transition: 1s all ease;
+}
+.navbar .dropdown-menu{
+    background-color: #cf5e28;
+    
+}
+.navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #cf5e28;
+    display: none;
+    border-right: none;
+    border-left: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid #cf5e28;
+    border-bottom: 1px solid white;
+}
+
+header .navbar ul li ul li ul{
+    left: 198px;
+    top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+
+  .caption{
+    color:black;
+    font-size: 40px;
+    font-weight: bolder;
+    bottom: 10px;
+    padding: 20px 0px;
+    width: 100.2%;
+    text-align: center;
+    background-color:rgba(163, 248, 163, 0.81);
+    padding: 15px 0px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+ .img{
+    border-radius: 6px;
+}
+.jumbotron{
+    background-color:rgb(190, 214, 222);
+     padding: 25px;
+    text-align: justify;
+    border-radius: 5px;
+   }
+   .jumbotron > h4{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: #000;
+   }
+   .jumbotron > p{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #000;
+   }
+
+.row .col-6{
+    border-bottom: 1px solid black;
+}
+
+.col-6 > h3{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+   text-transform: capitalize;
+   color: #000;
+}
+
+ .col-6 > h6 > a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    color:lightseagreen;
+    font-family: 'Arial Narrow Bold', sans-serif;
+   margin-left: 125px;                
+}
+
+.row > .col-5{
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 100% ;
+ }
+.col-5> h5{
+   font-weight: bold;
+   font-size: 25px;
+   font-family: 'Arial Narrow Bold', sans-serif;
+   text-transform: capitalize;
+   color: #000;
+}
+
+.col-8 > img{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.col-4 {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.col-4 h6{
+    margin-top:20px ;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-family:  sans-serif;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.text-reset{
+    text-decoration: none;
+}
+
+.text-reset:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 1s all ease;
+}
+
+.card-title{
+    text-align: center;
+    }
